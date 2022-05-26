@@ -1,6 +1,6 @@
 # [Baekjoon Online Judge](https://www.acmicpc.net/) Solving Problem
 
-## [Chunghyun Lim](mailto:potterLim0808@gmail.com)
+## [Chunghyun Lim](https://potterlim.github.io)
 
 Handong Global University<br/>
 School of Computer Science and Electrical Engineering
