@@ -27,9 +27,6 @@ int main(void)
         sum_score += scores[i];
     }
 
-    printf("min_idx: %d\n", min_idx);
-    printf("sum_score: %d\n", sum_score);
-
     sum_score += (scores[4] > scores[5]) ? scores[4] : scores[5];
 
     printf("%d\n", sum_score);
