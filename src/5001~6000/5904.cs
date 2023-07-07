@@ -7,11 +7,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int number = int.Parse(Console.ReadLine());
-            char result = CalculateMoo(number);
+            char result = CalculateMooRecursive(number);
             Console.WriteLine(result);
         }
 
-        static char CalculateMoo(int number)
+        static char CalculateMooRecursive(int number)
         {
             if (number == 1)
             {
@@ -39,7 +39,7 @@ namespace ConsoleApp1
             }
             if (size - frontBack + 1 <= number)
             {
-                return CalculateMoo(number - size + frontBack);
+                return CalculateMooRecursive(number - size + frontBack);
             }
 
             return 'o';
