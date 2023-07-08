@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is dedicated to solving problems from the Baekjoon Online Judge (BOJ) and uploading the solutions. It was created on May 19, 2022, with the goal of regularly solving BOJ problems and maintaining a record of the solutions.
+This repository is dedicated to solving problems from the Baekjoon Online Judge (BOJ) and uploading the solutions. It was created with the goal of regularly solving BOJ problems and maintaining a record of the solutions.
 
 ## Repository Structure
 
