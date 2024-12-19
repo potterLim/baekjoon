@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is dedicated to solving problems from the Baekjoon Online Judge (BOJ) and uploading the solutions. It was created with the goal of regularly solving BOJ problems and maintaining a record of the solutions.
+This repository is dedicated to solving problems from the [Baekjoon Online Judge (BOJ)](https://www.acmicpc.net/) and uploading the solutions. It was created with the goal of regularly solving BOJ problems and maintaining a record of the solutions.
 
 ## Repository Structure
 
@@ -15,7 +15,9 @@ The main components of the repository are as follows:
 
 ## Blog
 
-For more detailed explanations and discussions about the problem solutions are posted on the [Blog](https://potterlim.tistory.com/). The blog posts provide step-by-step explanations, code walkthroughs, and any additional insights related to the problems.
+~~For more detailed explanations and discussions about the problem solutions are posted on the Blog. The blog posts provide step-by-step explanations, code walkthroughs, and any additional insights related to the problems.~~
+
+Posts containing detailed solutions will be published on the blog at a later date.
 
 ## Contribution
 
