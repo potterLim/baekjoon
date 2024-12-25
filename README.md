@@ -6,9 +6,7 @@ This repository is dedicated to solving problems from the [Baekjoon Online Judge
 
 ## Blog
 
-~~For more detailed explanations and discussions about the problem solutions are posted on the Blog. The blog posts provide step-by-step explanations, code walkthroughs, and any additional insights related to the problems.~~
-
-Posts containing detailed solutions will be published on the blog at a later date.
+Detailed solutions and discussions for some of the key problems are being published on the [blog](https://potterlim.tistory.com/category/Computer%20Science/Problem%20Solving). These posts include step-by-step explanations, code walkthroughs, and additional insights to help understand the problems and solutions more effectively. Keep an eye on the blog for updates as more solutions are added regularly.
 
 ## Contribution
 
