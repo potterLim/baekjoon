@@ -4,9 +4,6 @@
 
 int main()
 {
-	std::ios::sync_with_stdio(false);
-	std::cin.tie(nullptr);
-
 	const int boardSize = 100;
 	const int diceFaces = 6;
 
