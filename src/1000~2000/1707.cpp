@@ -42,9 +42,6 @@ static bool CheckIfBipartite(const int vertexCount, const std::vector<std::vecto
 
 int main()
 {
-	std::ios::sync_with_stdio(false);
-	std::cin.tie(nullptr);
-
 	int testCaseCount = 0;
 	std::cin >> testCaseCount;
 
