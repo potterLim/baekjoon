@@ -27,9 +27,9 @@ public:
 
 	void SolveFromRoot(int root)
 	{
-		BuildDfsOrder(root);
-		RunTreeDp();
-		ReconstructSolution(root);
+		buildDfsOrder(root);
+		runTreeDp();
+		reconstructSolution(root);
 		std::sort(mChosenVertices.begin(), mChosenVertices.end());
 	}
 
@@ -61,7 +61,7 @@ private:
 	std::vector<int> mParent;
 	std::vector<int> mChosenVertices;
 
-	void BuildDfsOrder(int root)
+	void buildDfsOrder(int root)
 	{
 		std::vector<int> stack;
 		std::vector<char> visited(mAdjacencyList.size(), 0);
@@ -89,7 +89,7 @@ private:
 		}
 	}
 
-	void RunTreeDp()
+	void runTreeDp()
 	{
 		for (int i = static_cast<int>(mDfsOrder.size()) - 1; i >= 0; --i)
 		{
@@ -120,7 +120,7 @@ private:
 		}
 	}
 
-	void ReconstructSolution(int root)
+	void reconstructSolution(int root)
 	{
 		std::vector<int> stackVertex;
 		std::vector<char> stackTake;
@@ -183,9 +183,6 @@ private:
 
 int main()
 {
-	std::ios::sync_with_stdio(false);
-	std::cin.tie(nullptr);
-
 	int vertexCount = 0;
 	if (!(std::cin >> vertexCount))
 	{
