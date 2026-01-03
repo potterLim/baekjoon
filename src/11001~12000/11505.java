@@ -60,8 +60,7 @@ public class Main {
 
         treeIndex >>= 1;
         while (treeIndex > 0) {
-            segmentTree[treeIndex] =
-                    (segmentTree[treeIndex << 1] * segmentTree[(treeIndex << 1) + 1]) % MOD;
+            segmentTree[treeIndex] = (segmentTree[treeIndex << 1] * segmentTree[(treeIndex << 1) + 1]) % MOD;
             treeIndex >>= 1;
         }
     }
